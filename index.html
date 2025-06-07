@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheel of Fortune</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Breakfast Selection</h1>
+        <div class="meal-selector">
+            <button class="meal-btn active" data-meal="Breakfast">Breakfast</button>
+            <button class="meal-btn" data-meal="Lunch">Lunch</button>
+            <button class="meal-btn" data-meal="Dinner">Dinner</button>
+        </div>
+        <div class="wheel-container">
+            <canvas id="wheel" width="400" height="400"></canvas>
+            <div class="wheel-pointer"></div>
+        </div>
+        <button id="spin-btn">SPIN</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
